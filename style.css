@@ -35,12 +35,11 @@ h1 {
 }
 
 .result-container h1 {
-  padding-top: 1rem;
+  padding: 1rem;
   font-weight: 500;
 }
 
 .score-container {
-  margin-top: 1.25rem;
   border-radius: 50%;
   height: 150px;
   width: 150px;
@@ -80,6 +79,7 @@ h1 {
 
 .result-description {
   width: 60%;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
