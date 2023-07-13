@@ -3,3 +3,84 @@
 body {
   font-family: 'Hanken Grotesk', sans-serif;
 }
+
+p,
+h1 {
+  font-size: 1.125rem;
+  color: white;
+}
+
+.lavender-font {
+  color: hsl(241, 100%, 89%);
+}
+
+.content {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.result-container {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 0 0 35px 35px;
+}
+
+.result-container h1 {
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+.score-container {
+  margin-top: 1.25rem;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.score-container p {
+  margin: 0;
+}
+
+.score-content {
+  text-align: center;
+}
+
+.score {
+  font-size: 3.75rem;
+  font-weight: bold;
+}
+
+.result-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.result-adjective {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.result-description {
+  width: 60%;
+}
+
+@media (min-width: 768px) {
+}
