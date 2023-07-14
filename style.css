@@ -6,8 +6,8 @@ body {
 
 p,
 h1 {
-  font-size: 1.125rem;
   color: white;
+  font-size: 1.125rem;
 }
 
 .lavender-font {
@@ -15,17 +15,17 @@ h1 {
 }
 
 .content {
-  display: flex;
   align-items: stretch;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .section {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
@@ -35,20 +35,18 @@ h1 {
 }
 
 .result-container h1 {
-  padding: 1rem;
   font-weight: 500;
+  padding: 1rem;
 }
 
 .score-container {
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  justify-content: center;
   align-items: center;
   background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  width: 150px;
 }
 
 .score-container p {
@@ -65,10 +63,10 @@ h1 {
 }
 
 .result-description-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
@@ -78,9 +76,10 @@ h1 {
 }
 
 .result-description {
-  width: 60%;
   padding-bottom: 1rem;
+  width: 60%;
 }
 
 @media (min-width: 768px) {
+  /* Add media queries styles here */
 }
