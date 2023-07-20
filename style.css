@@ -19,6 +19,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  min-width: 375px;
+  /* max-width: 1100px; */
 }
 
 .section {
@@ -32,6 +34,7 @@ h1 {
 .result-container {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-radius: 0 0 35px 35px;
+  max-width: 450px;
 }
 
 .result-container h1 {
@@ -84,10 +87,12 @@ h1 {
   display: flex;
   align-items: flex-start;
   width: 85%;
+  max-width: 380px;
 }
 
 .summary-container h1 {
   color: hsl(224, 30%, 27%);
+  margin-top: 1.5rem;
 }
 
 .summary-box {
@@ -155,5 +160,29 @@ button {
 }
 
 @media (min-width: 768px) {
-  /* Add media queries styles here */
+  body {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+  }
+
+  .content {
+    flex-wrap: nowrap;
+    max-width: 800px;
+    margin: auto;
+    align-items: center;
+    box-shadow: 0 4px 20px 4px hsla(241, 72%, 46%, 0.2);
+    border-radius: 35px;
+  }
+
+  .result-container {
+    border-radius: 35px;
+    height: 30rem;
+    width: 50%;
+  }
+
+  .summary-container {
+    margin: 0 2.5rem;
+    width: 50%;
+  }
 }
